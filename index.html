@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+
+    <title>Library</title>
+  </head>
+  <body>
+    <div class="container is-max-desktop">
+      <!--Header-->
+      <header class="m-3 columns is-mobile">
+        <!--Header__Image-->
+        <div class="column">
+          <figure class="image is-48x48">
+            <img
+              class="is-rounded"
+              src="https://bulma.io/images/placeholders/48x48.png"
+              alt="logo"
+            />
+          </figure>
+        </div>
+        <div class="column"></div>
+
+        <!--Header__Button-->
+        <div class="column is-three-quarters-mobile">
+          <button class="button is-primary is-medium is-fullwidth">
+            Ingresar
+          </button>
+        </div>
+      </header>
+
+      <!--Contact-->
+      <section class="p-5">
+        <h1 class="title">Escribinos</h1>
+        <h2 class="subtitle">Dejanos tu mensaje y te responderemos pronto.</h2>
+
+        <!--Contact__Form-->
+        <form>
+          <!--Contact-Form__Name-->
+          <div class="field">
+            <label class="label">Name</label>
+            <div class="control">
+              <input class="input" type="text" />
+            </div>
+          </div>
+
+          <!--Contact-Form__Message-->
+          <div class="field">
+            <label class="label">Message</label>
+            <div class="control">
+              <textarea class="textarea"></textarea>
+            </div>
+          </div>
+
+          <!--Contact-Form__Buttons-->
+          <div class="field is-grouped">
+            <div class="control">
+              <button class="button is-info is-medium">Submit</button>
+            </div>
+            <div class="control">
+              <button class="button is-link is-light is-medium">Cancel</button>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+  </body>
+</html>
